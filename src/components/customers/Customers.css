@@ -1,0 +1,68 @@
+.grid {
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  font-family: "Lato", sans-serif;
+  width: 300px;
+  border: 1px solid #ccdbe5;
+  border-radius: 10px;
+}
+
+.image {
+  position: relative;
+  height: 300px;
+}
+
+.card img {
+  border-bottom: 1px solid #ccdbe5;
+  max-width: 300px;
+  max-height: 300px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.card:hover {
+  box-shadow: 0 1px 3px 0 #ccdbe5, 0 0 0 1px #ccdbe5;
+}
+
+.content {
+  border-top: 1px solid #ccdbe5;
+  padding: 5px;
+}
+
+.name {
+  font-size: 18px;
+  padding: 4px;
+  color: #505050;
+}
+
+.info {
+  border-top: 1px solid #ccdbe5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  font-size: 14px;
+  color: #a9a9a9;
+  padding: 5px;
+}
+
+.collectionCount {
+  font-size: 14px;
+  color: #a9a9a9;
+  padding: 5px;
+}
+
+.card-link {
+  text-decoration: none;
+}

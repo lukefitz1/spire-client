@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  font-family: "Lato", sans-serif;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: #006e89;
+  height: 75px;
+  padding: 0 25px 0 25px;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spire-name {
+  margin-right: 125px;
+  font-size: 20px;
+}
+
+.links {
+  display: flex;
+}
+
+.menu-text {
+  padding: 5px;
+}
+
+.link {
+  margin-right: 60px;
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  /* margin-right: 25px; */
+}
