@@ -5,8 +5,8 @@ import { useHistory } from "react-router-dom";
 const Login = () => {
   const history = useHistory();
   const { state, signin, tryLocalSignin } = useContext(AuthContext);
-  const [email, setEmail] = useState("lukefitz1@gmail.com");
-  const [password, setPassword] = useState("pass4luke");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [loginError, setLoginError] = useState(false);
 
   useEffect(() => {
